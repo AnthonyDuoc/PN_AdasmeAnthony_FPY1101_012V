@@ -16,6 +16,7 @@ TRABAJADORES = [
     {"nombre": "Elena Fernandez", "cargo": "Analista"}
 ]
 
+#Menu principal
 while True:
     print("\nBienvenido al asistente de sueldos")
     print("1.Asignar sueldos aleatorios")
@@ -26,6 +27,7 @@ while True:
 
     opcion = int(input("Seleccione una opción: "))
 
+    #Asignacion de sueldos
     def asignar_sueldos(TRABAJADORES, SUELDO):
         print("\nSueldos generados...")
         for i in range(len(TRABAJADORES)):
@@ -34,6 +36,7 @@ while True:
             SUELDO.append(sueldo)
             print(f"{TRABAJADORES[i]['nombre'].ljust(20)} {TRABAJADORES[i]['cargo'].ljust(20)} - {str(sueldo_format).rjust(5)}")
 
+    #Clasificacion de sueldos
     def clasificar_sueldos(TRABAJADORES, SUELDO):
         total_personas_sueldo1 = 0
         total_personas_sueldo2 = 0
@@ -65,7 +68,7 @@ while True:
         print(f"Total : {total_personas_sueldo3:,}")
         print(f"\nTotal suma de todos los sueldos:  {total_sueldos:,}")
 
-
+    #Estadisticas de sueldos
     def ver_estadisticas(TRABAJADORES,SUELDO):
         print("\nEstadísticas sueldos: ")
         suelo_alto = max(SUELDO)
@@ -80,7 +83,7 @@ while True:
         print(f"{'Promedio:'.ljust(20)} $ {promedio:.2f}")
         print(f"{'Media:'.ljust(20)} $ {media:.2f}")
         
-        
+    #Reporte de sueldos
     def reporte_sueldos(TRABAJADORES,SUELDO):
         titulo_nombre = "Empleado"
         titulo_cargo = "Cargo"
@@ -107,7 +110,7 @@ while True:
             print("\n Reporte de sueldos creado en CSV \n")
             
 
-
+    #Opciones del mennu principal
     if opcion == 1:
         asignar_sueldos(TRABAJADORES,SUELDO)
     elif opcion == 2:
