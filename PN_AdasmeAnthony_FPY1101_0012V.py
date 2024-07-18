@@ -44,7 +44,7 @@ while True:
             sueldo = SUELDO[t]
             if sueldo < 800000:
                 print(f"{TRABAJADORES[t]['nombre'].ljust(20)}{TRABAJADORES[t]['cargo'].ljust(20)} - $ {sueldo:,.0f}")
-                
+                total_personas_sueldo1 += 1
         print(f"Total : {total_personas_sueldo1:,}")
     
         print("\nSueldos entre 800.000 y 2.000.000: \n")
