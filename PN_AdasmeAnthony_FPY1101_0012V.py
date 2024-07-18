@@ -67,7 +67,7 @@ while True:
 
 
     def ver_estadisticas(TRABAJADORES,SUELDO):
-        print("\nEstadísticas: ")
+        print("\nEstadísticas sueldos: ")
         suelo_alto = max(SUELDO)
         suelo_bajo = min(SUELDO)
         geometrica = statistics.geometric_mean(SUELDO)
