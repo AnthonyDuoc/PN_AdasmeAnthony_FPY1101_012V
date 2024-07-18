@@ -27,7 +27,7 @@ while True:
     opcion = int(input("Seleccione una opción: "))
 
     def asignar_sueldos(TRABAJADORES, SUELDO):
-        print("Sueldos generados...")
+        print("\nSueldos generados...")
         for i in range(len(TRABAJADORES)):
             sueldo = random.randint(300000, 2500000)
             sueldo_format = f"$ {sueldo:,}"
@@ -38,7 +38,7 @@ while True:
         total_personas_sueldo1 = 0
         total_personas_sueldo2 = 0
         total_personas_sueldo3 = 0
-        print("Sueldos clasificados: \n")
+        print("\nSueldos clasificados: \n")
         print("Sueldos menor a 800.000: \n")
         for t in range(len(TRABAJADORES)):
             sueldo = SUELDO[t]
@@ -67,7 +67,7 @@ while True:
 
 
     def ver_estadisticas(TRABAJADORES,SUELDO):
-        print("Estadísticas: \n")
+        print("\nEstadísticas: ")
         suelo_alto = max(SUELDO)
         suelo_bajo = min(SUELDO)
         geometrica = statistics.geometric_mean(SUELDO)
@@ -88,7 +88,7 @@ while True:
         titulo_afp = "Desc. AFP"
         titulo_salud = "Desc. Salud"
         titulo_liquido = "Sueldo Liquido"
-        print("\n Reporte de sueldos \n")
+        print("\n Reporte de sueldos: ")
         print(f"{titulo_nombre.ljust(20)} {titulo_cargo.ljust(20)} {titulo_sueldo.rjust(22)} {titulo_afp.rjust(21)} {titulo_salud.rjust(23)} {titulo_liquido.rjust(20)}")
         
         with open("reporte_sueldos.csv", 'w', newline='') as file:
