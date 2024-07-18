@@ -15,7 +15,7 @@ TRABAJADORES = [
     {"nombre": "Francisco Diaz", "cargo": "Consultor TI"},
     {"nombre": "Elena Fernandez", "cargo": "Analista"}
 ]
-
+#Revision
 #Menu principal
 while True:
     print("\nBienvenido al asistente de sueldos")
