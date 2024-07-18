@@ -93,7 +93,7 @@ while True:
         
         with open("reporte_sueldos.csv", 'w', newline='') as file:
             writer = csv.writer(file)
-            writer.writerow(["Nombre".center(20), "Cargo".center(20), "Sueldo Base".center(22), "Descuento AFP 7%".center(25), "Descuento Salud 12%".center(21), "Sueldo Liquido".center(20)])
+            writer.writerow(["Nombre".center(20), "Cargo".center(20), "Sueldo Base".center(22), "Desc. AFP 7%".center(22), "Desc. Salud 12%".center(22), "Sueldo Liquido".center(20)])
             for i in range(len(TRABAJADORES)):
                 descuento_afp = 0.07 * SUELDO[i]
                 descuento_salud = 0.12 * SUELDO[i]
