@@ -120,4 +120,4 @@ while True:
         print("\nFinalizando el programa... \nDesarrollado por Anthony Adasme \nRut : 19.345.014-8")
         break
     else:
-        print("Opción no válida. Intente de nuevo.")
+        print("Esta opcion no es valida. Por favor, intente nuevamente.")
