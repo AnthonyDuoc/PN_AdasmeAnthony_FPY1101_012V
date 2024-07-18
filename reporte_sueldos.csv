@@ -1,0 +1,11 @@
+       Nombre       ,       Cargo        ,     Sueldo Base      ,     Descuento AFP 7%    , Descuento Salud 12% ,   Sueldo Liquido   
+     Juan Perez     ,    Consultor TI    ,"    $ 1,942,315     ","     $ 135,962      ","     $ 233,078      ","    $ 1,573,275     "
+    Maria Garcia    ,      Analista      ,"    $ 2,168,934     ","     $ 151,825      ","     $ 260,272      ","    $ 1,756,837     "
+    Carlos Lopez    ,    Programador     ,"     $ 408,098      ","      $ 28,567      ","      $ 48,972      ","     $ 330,559      "
+    Ana Martinez    ,  Jefe de Proyecto  ,"    $ 1,222,792     ","      $ 85,595      ","     $ 146,735      ","     $ 990,462      "
+  Pedro Rodriguez   ,    Consultor TI    ,"    $ 2,083,713     ","     $ 145,860      ","     $ 250,046      ","    $ 1,687,808     "
+  Laura Hernandez   ,      Analista      ,"     $ 481,966      ","      $ 33,738      ","      $ 57,836      ","     $ 390,392      "
+   Miguel Sanchez   ,    Programador     ,"     $ 385,229      ","      $ 26,966      ","      $ 46,227      ","     $ 312,035      "
+    Isabel Gomez    ,  Jefe de Proyecto  ,"     $ 362,713      ","      $ 25,390      ","      $ 43,526      ","     $ 293,798      "
+   Francisco Diaz   ,    Consultor TI    ,"    $ 1,691,719     ","     $ 118,420      ","     $ 203,006      ","    $ 1,370,292     "
+  Elena Fernandez   ,      Analista      ,"    $ 2,139,992     ","     $ 149,799      ","     $ 256,799      ","    $ 1,733,394     "
